@@ -1,5 +1,5 @@
 package headfirst.chapter1_strategy.behaviours;
 
-public interface Flyable {
+public interface FlyBehaviour {
     void fly();
 }

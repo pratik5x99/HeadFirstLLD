@@ -1,5 +1,5 @@
 package headfirst.chapter1_strategy.behaviours;
 
-public interface Quackable {
+public interface QuackBehaviour {
     void quack();
 }
