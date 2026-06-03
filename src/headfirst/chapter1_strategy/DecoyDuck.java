@@ -5,12 +5,5 @@ public class DecoyDuck extends Duck{
     public void display() {
         // looks like decoy duck
     }
-    @Override
-    public void quack(){
-        // do nothing
-    }
-    @Override
-    public void fly(){
-        // do nothing
-    }
+
 }

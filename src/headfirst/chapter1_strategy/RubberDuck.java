@@ -5,11 +5,11 @@ public class RubberDuck extends Duck{
     public void display() {
         // looks like a rubber duck
     }
-    @Override
+
     public void quack(){
         // Override to squeak
     }
-    @Override
+
     public void fly(){
         // Override to do nothing
     }
