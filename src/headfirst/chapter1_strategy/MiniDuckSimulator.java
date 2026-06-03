@@ -1,5 +1,8 @@
 package headfirst.chapter1_strategy;
 
+import headfirst.chapter1_strategy.behaviours.FlyBehaviour;
+import headfirst.chapter1_strategy.behaviours.FlyNoWay;
+import headfirst.chapter1_strategy.behaviours.FlyRocketPowered;
 import headfirst.chapter1_strategy.ducks.*;
 
 public class MiniDuckSimulator {
@@ -27,5 +30,18 @@ public class MiniDuckSimulator {
         decoy.display();
         decoy.performQuack();
         decoy.performFly();
+
+        System.out.println("\n--- Testing Rubber Duck ---");
+        Duck modelDuck = new ModelDuck();
+        modelDuck.display();
+        modelDuck.performQuack();
+        modelDuck.performQuack();
+
+        System.out.println();
+
+        System.out.println("Trying to change model duck behaviour");
+        modelDuck.changeFlyBehaviour(new FlyRocketPowered());
+        modelDuck.performFly();
+        
     }
 }
