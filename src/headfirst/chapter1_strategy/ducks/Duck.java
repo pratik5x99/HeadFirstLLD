@@ -1,4 +1,4 @@
-package headfirst.chapter1_strategy;
+package headfirst.chapter1_strategy.ducks;
 
 public abstract class Duck {
 

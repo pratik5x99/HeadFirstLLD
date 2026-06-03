@@ -1,6 +1,6 @@
-package headfirst.chapter1_strategy;
+package headfirst.chapter1_strategy.ducks;
 
-public class RubberDuck extends Duck{
+public class RubberDuck extends Duck {
     @Override
     public void display() {
         // looks like a rubber duck
