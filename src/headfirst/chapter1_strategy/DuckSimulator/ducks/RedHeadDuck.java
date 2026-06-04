@@ -1,7 +1,7 @@
-package headfirst.chapter1_strategy.ducks;
+package headfirst.chapter1_strategy.DuckSimulator.ducks;
 
-import headfirst.chapter1_strategy.behaviours.FlyWithWings;
-import headfirst.chapter1_strategy.behaviours.Quack;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.FlyWithWings;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.Quack;
 
 public class RedHeadDuck extends Duck {
     public RedHeadDuck(){

@@ -1,7 +1,7 @@
-package headfirst.chapter1_strategy.ducks;
+package headfirst.chapter1_strategy.DuckSimulator.ducks;
 
-import headfirst.chapter1_strategy.behaviours.FlyBehaviour;
-import headfirst.chapter1_strategy.behaviours.QuackBehaviour;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.FlyBehaviour;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.QuackBehaviour;
 
 public abstract class Duck {
     QuackBehaviour quackBehaviour;

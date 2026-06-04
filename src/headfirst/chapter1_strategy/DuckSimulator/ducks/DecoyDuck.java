@@ -1,7 +1,7 @@
-package headfirst.chapter1_strategy.ducks;
+package headfirst.chapter1_strategy.DuckSimulator.ducks;
 
-import headfirst.chapter1_strategy.behaviours.FlyNoWay;
-import headfirst.chapter1_strategy.behaviours.MuteQuack;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.FlyNoWay;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.MuteQuack;
 
 public class DecoyDuck extends Duck {
     public DecoyDuck(){

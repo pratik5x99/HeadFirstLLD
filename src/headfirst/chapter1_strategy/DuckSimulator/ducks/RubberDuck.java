@@ -1,7 +1,7 @@
-package headfirst.chapter1_strategy.ducks;
+package headfirst.chapter1_strategy.DuckSimulator.ducks;
 
-import headfirst.chapter1_strategy.behaviours.FlyNoWay;
-import headfirst.chapter1_strategy.behaviours.Squeak;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.FlyNoWay;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.Squeak;
 
 public class RubberDuck extends Duck {
     public RubberDuck(){

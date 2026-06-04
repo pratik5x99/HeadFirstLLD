@@ -1,9 +1,7 @@
-package headfirst.chapter1_strategy;
+package headfirst.chapter1_strategy.DuckSimulator;
 
-import headfirst.chapter1_strategy.behaviours.FlyBehaviour;
-import headfirst.chapter1_strategy.behaviours.FlyNoWay;
-import headfirst.chapter1_strategy.behaviours.FlyRocketPowered;
-import headfirst.chapter1_strategy.ducks.*;
+import headfirst.chapter1_strategy.DuckSimulator.behaviours.FlyRocketPowered;
+import headfirst.chapter1_strategy.DuckSimulator.ducks.*;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

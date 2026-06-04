@@ -1,4 +1,4 @@
-package headfirst.chapter1_strategy.behaviours;
+package headfirst.chapter1_strategy.DuckSimulator.behaviours;
 
 public class MuteQuack implements QuackBehaviour {
     @Override
